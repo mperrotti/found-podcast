@@ -1,0 +1,11 @@
+{
+  "name": "found-podcast",
+  "version": "0.1.0",
+  "description": "A podcast that interviews people who run communities",
+  "ignore": [
+  ],
+  "dependencies": {
+    "sassquatch2": "git@github.com:meetup/sassquatch2.git#develop"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,59 @@
+// @import '../../bower_components/sassquatch2/sass/globals';
+@import 'globals';
+@import '../../bower_components/sassquatch2/sass/util';
+
+// ---------------------------
+// ELEMENT DEFAULTS
+// ---------------------------
+body {
+  background: $C_collectionBG;
+}
+
+// ---------------------------
+// TYPOGRAPHY
+// ---------------------------
+.text--headingPrimary {
+  font-size: $font-size-l;
+  font-weight: $W_bold;
+  @include atMediaUp(small) {
+    font-size: $font-size-xl;
+  }
+}
+.text--heading {
+  @include atMediaUp(small) {
+    font-size: $font-size-l;
+  }
+}
+
+.text--pullQuote {
+  font-size: $font-size-l;
+}
+
+.text--number {
+  color: $C_accent;
+  font-weight: $W_text;
+}
+
+.link {
+  color: $C_link;
+}
+
+p {
+  max-width: 40em;
+}
+
+// ---------------------------
+// COLORS
+// ---------------------------
+.latestEp-card {
+  background-color: $C_dark;
+  figcaption {
+    background: $C_contentBG;
+    margin: -#{$space-and-half} $space $space $space-half;
+    padding: $space;
+  }
+}
+
+.latestEp-img {
+  width: 100%;
+}
